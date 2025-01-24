@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Factory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "personal_contract",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart_contracts_factory.sol": "pare"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart_contracts_factory.sol": {
+			"keccak256": "0xe02018f6bb87325d1590bb8eb4af6b984ca1059417627db0ac08bf7ebcfebd32",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cfee473a77e467dba4211f0d8545645c0bc65b86d007d9159d6505743c22c3e",
+				"dweb:/ipfs/QmZhiU5bDB7d7CHPtot8hAZUwM4Y9goTnMjnoPe6o2xSt7"
+			]
+		}
+	},
+	"version": 1
+}
